@@ -10,7 +10,7 @@ const Recipes = ({recipes}) => {
             <div className='w-full text-center text-3xl font-bold mb-10'>
                 <h1>Woo Recipes</h1>
             </div>
-            <div className='flex flex-wrap justify-center gap-[20px]'>
+            <div className='flex flex-wrap flex-col md:flex-row justify-center gap-[20px]'>
                 {recipes.map((recipe, i) => (
                 <Card key={i} recipe={recipe}/>
                 ))}
