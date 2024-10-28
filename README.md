@@ -1,1 +1,1 @@
-# SDev-Journey
+# SDev Journey
