@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# ignore .next folders
+.next/
+
 # Logs
 logs
 *.log
