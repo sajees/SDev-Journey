@@ -5,7 +5,8 @@ const nextImageLoader = ({ src, width, quality }) => {
 }
 
 const ContentfulImage = props => {
-    return <Image alt={props.alt} loader={nextImageLoader} {...props} />
+    console.log('props', props.classes);
+    return <Image alt={props.alt} className={props.classes} loader={nextImageLoader} {...props} />
 }
 
 export default ContentfulImage;
