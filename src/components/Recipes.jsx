@@ -4,7 +4,7 @@ import Card from "@/components/card";
 const Recipes = ({recipes}) => {
   return (
     <section className='w-full py-8'>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className='row'>
           <div className='col'>
             <div className='w-full text-center text-3xl font-bold mb-10'>
